@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-color: rgb(238, 255, 0);
+    font-family: -apple-system-headline, 
+                BlinkMacSystemFont, sans-serif;
+  }
+  /* This is for the nav bar */
+  nav {
+    background-color: rgb(70, 131, 180);
+    padding: 10px;
+  }
+  a {
+    color: white;
+    margin: 40px;
+  }
+  h1 {
+    color: rgb(70, 131, 180);
+  }
+  img {
+    width: 800px;
+    border: 4px solid steelblue;
+  }
+  p {
+    padding: 10px;
+  }
+  footer {
+    background-color: rgba(70, 131, 180, 0.576);
+    color: white;
+  }
