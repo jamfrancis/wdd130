@@ -1,0 +1,114 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #D7CF8C;
+}
+
+.logo{
+    width: 190px;
+}
+
+nav a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #05B3B1;
+    color: #ffffff;
+}
+/* The Hero Section */
+#hero {
+    height: 100vh;
+    text-align: center;
+}
+
+#hero-img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-msg {
+    margin: auto;
+}
+
+
+.button-box{
+    text-align: center;
+}
+
+
+/* The main section */
+main section{
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #D7CF8C;
+}
+
+body{
+    background-color: #D7CF8C;
+}
+
+.icon {
+    width: 80px;
+}
+
+
+.home-title{
+    color: black;
+}
+h4{
+    color:black;
+}
+
+.book, .join{
+    background-color: #D7CF8C;
+    color: black;
+    text-decoration: none;
+}
+
+.book:hover, .join:hover{
+    background-color: #D7CF8C;
+    color: black;
+}
+
+.msg{
+    background-color: #D7CF8C;
+}
+.msg h2{
+    color:black;
+}
+
+.msg p{
+    color:black;
+}
+
+/* Footer */
+
+footer{
+    background-color: #D7CF8C;
+}
+
+footer p{
+    font-size:1.2em;
+}
+
+footer a{
+    color:black;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:black;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
