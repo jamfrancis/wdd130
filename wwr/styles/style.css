@@ -59,9 +59,9 @@ main section img{
 
 /* the hero section */
 #hero {
-    height: 100vh;
+   /* height: 100vh;
     text-align: center;
-    position: relative;
+    position: relative; */
 }
 
 .hero-img{
@@ -70,8 +70,7 @@ main section img{
 }
 
 .hero-msg {
-    margin: 0;
-    position: relative;
+    margin: 10px;
 
 }
 
