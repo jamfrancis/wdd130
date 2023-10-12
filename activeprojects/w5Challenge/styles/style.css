@@ -1,6 +1,7 @@
 #content{
     /*max-width: 1600px;*/
     margin: 0 auto;
+
 }
 .hero{
     /*height: 100vh;*/
@@ -11,6 +12,14 @@
 
 #circles{
     padding: 0 auto 40 auto;
-
     background-color: grey;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.round{
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid rgb(64, 64, 64);
+    margin: 50px 80px;
 }
