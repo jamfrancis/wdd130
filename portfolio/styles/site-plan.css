@@ -25,6 +25,15 @@ Fonts are separated by a | */
   --nav-hover-background-color: #ed632d;
 }
 
+img{
+  width: 500px;
+}
+.topic{
+  font-style: oblique;
+}
+a, body{
+  font-family: var(--paragraph-font);
+}
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
