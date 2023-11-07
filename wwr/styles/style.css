@@ -229,8 +229,54 @@ footer p a:hover{
     text-decoration: underline;
 }
 
+/* FAQ Page */
+
+/* FAQ Title Section */
+#faq-title {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#title-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#title-img{ 
+   width: 100%;
+   height: auto;
+   margin: 0 auto;
+   grid-column: 2/3;
+}
+#faq-msg {
+    margin: 10px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* FAQ Boxes */
+#faq-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 30px;
+    margin: 5%
+    /* row-gap: 10px;
+    column-gap: 10px; */
+}
+.faq-box{
+    background-color: #05B3B1;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 10px;
+}
+
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, #faq-title{
         display: block;
         height: auto;
     }
@@ -241,10 +287,10 @@ footer p a:hover{
         display: block;
         padding: 15px;
     }
-    #hero {
+    #hero, #faq-title {
         margin-top: 0;
     }
-    #hero-msg {
+    #hero-msg, #faq-msg{
         margin-top: 0;
     }
     #hero-msg h4 {
@@ -270,4 +316,3 @@ footer p a:hover{
         margin-top: 25px;
     }
 }
-            
