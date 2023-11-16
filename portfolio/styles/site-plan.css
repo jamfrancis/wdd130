@@ -17,10 +17,10 @@ Fonts are separated by a | */
   --headline-color-on-white: #403D39;  /* headlines on a white background */ 
   --headline-color-on-color: #403D39; /* headlines on a colored background */ 
   --paragraph-color-on-white: #403D39; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #CCC5B9; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: #a7a39d; /* paragraph text on a colored background */ 
   --paragraph-background-color: #FFFCF2  ;
   --nav-link-color: #403D39;
-  --nav-background-color: #EB5E28;
+  --nav-background-color: #FFFCF2;
   --nav-hover-link-color: #403D39;
   --nav-hover-background-color: #ed632d;
 }
