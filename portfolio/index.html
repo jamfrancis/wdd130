@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <div id="content">
+  <div class="content">
     <header>
       <nav>
         <a href="index.html">Home</a>
@@ -31,30 +31,34 @@
         </div>
       </section>
     </div>
-    <main class="home-grid">
-        <div id="intro-box"></div>
+    <div id="intro-box">
+      <h2>- Welcome To Port.Folio -</h2>
+    </div>
+    <div id="home-grid">
       <div id="project-1" class="project-card">
-        <h2>Paddle Power</h2>
+        <h2 class="project-title">Paddle Power</h2>
         <p class="project-info">Explore my web design prowess through my work on Paddle Power</p>
-        <button class="project-link">Check It Out</button>
+        <button class="project-link" onclick="window.location.href='https://jamfrancis.github.io/wdd130/wwr/index.html'">Check It Out</button>
       </div>
       <div id="project-2" class="project-card">
-        <h2>Retail Sales Calculator</h2>
-        <p class="project-info">See my coding abilities through my Retail Sales Calculator Project</p>
-        <button class="project-link">Check It Out</button>
+        <h2 class="project-title">Loan Calculator</h2>
+        <p class="project-info">See my coding abilities through my Loan Calculator Project</p>
+        <button class="project-link" onclick="window.location.href='loan.html'">Check It Out</button>
 
       </div>
       <div id="project-3" class="project-card">
-        <h2>The Francis Entrepreneurial Blog (FEB)</h2>
+        <h2 class="project-title">The Francis Entrepreneurial Blog (FEB)</h2>
         <p class="project-info">Discover a fresh perspective through my writings on The FEB</p>
-        <button class="project-link">Check It Out</button>
+        <button class="project-link" onclick="window.location.href='https://franciseb.blogspot.com/'">Check It Out</button>
 
       </div>
-    </main>
+    </div>
     <footer>
-      <p>port.folio &copy; 2023 | James Francis</p>
-      <p><a href="site-plan.html">Site Plan</a></p>
-      <div class="social">
+      <div class="foot">port.folio &copy; 2023 | James Francis</div>
+      <div class ="foot">
+        <a href="site-plan.html">Site Plan</a>
+      </div>
+      <div id="social" class="foot">
         <button id="follow" href="https://www.instagram.com/imjamesfrancis/">Follow</button>
       </div>
     </footer>
