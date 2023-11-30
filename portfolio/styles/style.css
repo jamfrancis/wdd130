@@ -112,7 +112,7 @@ a:hover {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: .5fr .5fr;
-}
+} 
 
 #hero-box {
 
@@ -133,6 +133,8 @@ a:hover {
 
 .logo {
     width: 100px;
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 #intro-box {
@@ -296,7 +298,6 @@ footer.foot {
 
     .home-title {
         font-size: 40px;
-        color: #000000;
         margin: 0px;
     }
 
