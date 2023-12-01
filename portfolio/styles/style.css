@@ -162,13 +162,11 @@ a:hover {
     text-align: center;
     position: relative;
     display: grid;
-    /* grid-gap: 0px; */
     grid-template-rows: .5fr 2fr 50px;
 }
 
 h2.project-title {
     height: fit-content;
-    /* background-color:#f4743d; */
     border-radius: 15px;
     padding: 5px;
     margin: 0px;
@@ -207,11 +205,11 @@ button:hover{
     background-color: #f9f3e0;
 }
 
-#social button {
+.social button {
     background-color: #ed632d;
 
 }
-#social button:hover {
+.social button:hover {
     background-color: #f38356;
 
 }
@@ -229,7 +227,56 @@ footer.foot {
     margin: 0 10px;
 }
 
+/* Info Page */
 
+#profile{
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#welcome-box{
+    font-size: 3em;
+}
+#welcome-card{
+    position: relative;
+    z-index: 1;
+    background-color: #CCC5B9;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+#welcome-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+#welcome-image{
+    vertical-align: middle;
+    width:100%;
+    max-width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+#welcome-info{
+    text-align: center;
+    margin-right: 20px;
+    background-color: #ed632d;
+    border-radius: 15px;
+    /* margin: 0 20px 0 0px; */
+    height: 400px;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    padding: 20px;
+}
 
 @media screen and (max-width: 600px) {
 
@@ -301,4 +348,18 @@ footer.foot {
         margin: 0px;
     }
 
+    /* Info Page */
+    #welcome-grid{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    #welcome-image{
+        width: 100%;
+        margin: 0 auto;
+        }
+    #welcome-info{
+        margin: 0 auto;
+
+    }
 }
