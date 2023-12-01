@@ -253,8 +253,13 @@ footer.foot {
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
 }
+#welcome-img{
+    display: flex;
+    justify-content: end;
+
+}
 #welcome-image{
-    vertical-align: middle;
+    justify-content: end;
     width:100%;
     max-width: 500px;
     height: 400px;
