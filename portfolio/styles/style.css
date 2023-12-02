@@ -229,6 +229,10 @@ footer.foot {
 
 /* Info Page */
 
+#welcome-section{
+    text-align: center;
+}
+
 #profile{
     vertical-align: middle;
     width: 200px;
