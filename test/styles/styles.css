@@ -1,49 +1,118 @@
-#content{
-    display:grid;
-    grid-template-rows: 1fr 3fr 1fr
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+:root {
+    font-family: "IM Fell French Canon SC";
 }
-header{
-    grid-row: 1/2;
-    background-color: #EBF7FE;
-    display: flex;
-    text-align: middle;
+body {
+    background-color: #28282c;
 }
-main{
-    grid-row: 2/3;
-    background-color: #003554;
-}
-#boxes{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    border-spacing: 30px;
-}
-box1 box2 box3 box4{
-    background-color: #EBF7FE;
-    display:grid;
-    grid-template-rows: 1fr 2fr;
-    width: 30px;
-}
-box1{
-    grid-column: 1/2;
 
+nav a {
+    text-align: center;
+    color: #a06cd5;
+    text-decoration: none;
+    padding: 35px;
 }
-box2{
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 150px;
+    border-radius: 50px;
+}
+
+h1 {
+    color: #ac3931;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+#container-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    grid-gap: 40px;
+}
+#container-second {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.block {
+    display: block;
+    margin: 0 auto;
+    grid-column: 1/2;
+    width: 100%;
+}
+
+h2 {
+    
+    color: #ac3931;
+    text-align: center;
+    font-size: 1.5em
+}
+p {
+    text-align: center;
+    color: #ade1e5;
+    font-size: 1.1em;
+}
+
+#img1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#t1 {
     grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 10px;
 }
-box3{
-    grid-column: 3/4;
+#p1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 35px;
 }
-box4{
-    grid-column: 4/5;
+#img2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
-.thumbnail{
-    background-color: #051923;
- 
+#t2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 10px;
 }
-.picture{
-    width: 50px;
+#p2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 35px;
 }
-footer{
+#img3 {
+    grid-column: 1/2;
     grid-row: 3/4;
-    background-color: #EBF7FE;
+}
+#t3 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 10px;
+}
+#p3 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding: 35px;
+}
+#p200 {
+    grid-column: 2/3;
 }

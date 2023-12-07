@@ -5,32 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>James Francis | Portfolio | Projects</title>
-    <link rel="icon" href="images/personal_logo.png" type="image/x-icon"/>
+    <link rel="icon" href="images/personal_logo.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js"></script>
 </head>
 
 <body>
     <div class="content">
         <header>
             <nav>
-              <a href="index.html">Home</a>
-              <a href="info.html">About Me</a>
-              <a href="projects.html">Projects</a>
-              
+                <a href="index.html">Home</a>
+                <a href="info.html">About Me</a>
+                <a href="projects.html">Projects</a>
+
             </nav>
-          <div id="dark-mode">
-            <p id="button-label">Dark</p>
-            <label class="switch">
-              <input type="checkbox" onclick="myFunction()">
-                  <span class="slider round"></span>
-          </label>
-        </div>
-        <div id="projects-section">
-            <div class="logo">
-                <img class="logo" src="images/personal_logo.png" alt="Francis Logo">
+            <div id="dark-mode">
+                <p id="button-label">Dark</p>
+                <label class="switch">
+                    <input type="checkbox" onclick="myFunction()">
+                    <span class="slider round"></span>
+                </label>
             </div>
-            <div id="projects-box">
-                <h3>Projects</h3>
+        </header>
+        <div id="projects-section">
+            <div id="title-grid">
+                <div class="logo" id="project-logo">
+                    <img class="logo" src="images/personal_logo.png" alt="Francis Logo">
+                </div>
+                <div class="title-head" id="project-title">
+                    <h3 id="project-title-title">Projects</h3>
+                </div>
             </div>
             <div id="projects-hero">
                 <img id="project-title-img" src="images/macbook.jpg" alt="MacBook Opening">
@@ -42,18 +46,26 @@
                         Paddle Power
                     </h4>
                     <p class="card">
-                        Among these endeavors stands out my work on the Paddle Power White Water Rafting site, a project
+                        Among these endeavors stands out my work on the Paddle Power White Water Rafting site, a
+                        project
                         that encapsulates my dedication to crafting engaging online experiences. Through meticulous
                         design and innovative user interfaces, I transformed the Paddle Power website into a digital
-                        gateway for adventure enthusiasts. Navigating the thrilling waters of creativity, I integrated
+                        gateway for adventure enthusiasts. Navigating the thrilling waters of creativity, I
+                        integrated
                         dynamic visuals, intuitive navigation, and seamless functionality, ensuring visitors could
-                        effortlessly explore the excitement and adrenaline of white water rafting. This project not only
-                        challenged my technical skills but also allowed me to merge my love for outdoor activities with
-                        my expertise in web development, resulting in a vibrant, user-friendly platform that captures
+                        effortlessly explore the excitement and adrenaline of white water rafting. This project not
+                        only
+                        challenged my technical skills but also allowed me to merge my love for outdoor activities
+                        with
+                        my expertise in web development, resulting in a vibrant, user-friendly platform that
+                        captures
                         the essence of the exhilarating rafting experience. Explore this project and witness how my
-                        passion for design meets the rush of the river, creating a seamless harmony in the online realm.
+                        passion for design meets the rush of the river, creating a seamless harmony in the online
+                        realm.
                     </p>
-                    <button class="project-link">Check It Out</button>
+                    <button class="project-link"
+                        onclick="window.location.href='https://jamfrancis.github.io/wdd130/wwr/index.html'">Check It
+                        Out</button>
                 </div>
                 <div id="projects-2" class="projects-card">
                     <h4 class="projects-title">
@@ -61,35 +73,51 @@
                     </h4>
                     <p class="card">
                         Dive into one of my intriguing projects, the Retail Sales Calculator, where I combined my
-                        passion for programming with practical problem-solving skills. This web application stands as a
-                        testament to my proficiency in web development. The program takes customer subtotal as input and
-                        processes the total amount based on specific conditions. If the subtotal exceeds $50 and the day
-                        falls on Tuesday or Wednesday, a 10% discount is applied, followed by a 6% sales tax addition.
-                        For other days of the week or subtotals less than $50, only the 6% sales tax is added. With a
-                        keen eye for detail and a knack for efficient coding, I created an interactive interface where
+                        passion for programming with practical problem-solving skills. This web application stands
+                        as a
+                        testament to my proficiency in web development. The program takes customer subtotal as input
+                        and
+                        processes the total amount based on specific conditions. If the subtotal exceeds $50 and the
+                        day
+                        falls on Tuesday or Wednesday, a 10% discount is applied, followed by a 6% sales tax
+                        addition.
+                        For other days of the week or subtotals less than $50, only the 6% sales tax is added. With
+                        a
+                        keen eye for detail and a knack for efficient coding, I created an interactive interface
+                        where
                         users can input their subtotal and instantly calculate the adjusted price. This project
                         showcases my ability to transform complex retail calculations into a seamless digital
-                        experience, highlighting my expertise in both frontend and backend web development. Explore this
-                        project to witness how I turn intricate retail logic into a user-friendly application, bridging
+                        experience, highlighting my expertise in both frontend and backend web development. Explore
+                        this
+                        project to witness how I turn intricate retail logic into a user-friendly application,
+                        bridging
                         the gap between intricate algorithms and effortless user interaction.
                     </p>
-                    <button class="project-link">Check It Out</button>
+                    <button class="project-link"
+                        onclick="window.location.href='https://jamfrancis.github.io/wdd130/portfolio/loan.html'">Check
+                        It Out</button>
                 </div>
                 <div id="projects-3" class="projects-card">
                     <h4 class="projects-title">
                         The Francis Entrepreneurial Blog (FEB)
                     </h4>
                     <p class="card">
-                        Welcome to the Francis Entrepreneurial Blog (FEB), a venture where I share my insights and delve
+                        Welcome to the Francis Entrepreneurial Blog (FEB), a venture where I share my insights and
+                        delve
                         into the captivating stories of various entrepreneurs. Through weekly entries, I explore the
                         dynamic world of entrepreneurship, uncovering the challenges, triumphs, and valuable lessons
-                        embedded in the journeys of these innovative minds. The FEB serves as a digital canvas where I
-                        paint narratives of resilience, creativity, and strategic thinking exhibited by entrepreneurs
+                        embedded in the journeys of these innovative minds. The FEB serves as a digital canvas where
+                        I
+                        paint narratives of resilience, creativity, and strategic thinking exhibited by
+                        entrepreneurs
                         from diverse fields. Whether you're a fellow entrepreneur seeking inspiration, a business
-                        enthusiast, or someone eager to understand the intricacies of the entrepreneurial landscape, the
-                        FEB offers a rich tapestry of knowledge. Join me on this entrepreneurial odyssey as we navigate
+                        enthusiast, or someone eager to understand the intricacies of the entrepreneurial landscape,
+                        the
+                        FEB offers a rich tapestry of knowledge. Join me on this entrepreneurial odyssey as we
+                        navigate
                         the fascinating narratives and glean valuable insights that fuel the spirit of innovation.
-                        Explore the Francis Entrepreneurial Blog, where each post unveils a new chapter in the vibrant
+                        Explore the Francis Entrepreneurial Blog, where each post unveils a new chapter in the
+                        vibrant
                         and ever-evolving story of entrepreneurship.
                     </p>
                     <button class="project-link">Check It Out</button>
@@ -99,15 +127,20 @@
                         Wind Chill Calculator
                     </h4>
                     <p class="card">
-                        Embark on a journey into the realm of meteorological calculations with my Wind Chill Calculator
+                        Embark on a journey into the realm of meteorological calculations with my Wind Chill
+                        Calculator
                         project. This web application, a testament to my coding proficiency, allows users to input
                         temperature and wind speed, unveiling the calculated wind chill with a click of a button.
                         Through the implementation of the windChill function, the program seamlessly processes the
                         complex formula, providing users with an accurate representation of how temperature and wind
-                        speed interplay to create the chilling effect. The sleek and intuitive interface enables users
-                        to effortlessly engage with the application, making meteorological computations accessible to
-                        all. As you explore this project, you'll witness not only my dedication to creating functional
-                        and user-friendly programs but also my commitment to translating intricate scientific formulas
+                        speed interplay to create the chilling effect. The sleek and intuitive interface enables
+                        users
+                        to effortlessly engage with the application, making meteorological computations accessible
+                        to
+                        all. As you explore this project, you'll witness not only my dedication to creating
+                        functional
+                        and user-friendly programs but also my commitment to translating intricate scientific
+                        formulas
                         into interactive digital experiences. Step into the world of meteorology and experience the
                         convergence of science and technology through the Wind Chill Calculator.
                     </p>
@@ -115,16 +148,22 @@
                 </div>
 
 
+
             </div>
-            </main>
-            <footer>
-                <p>port.folio &copy; 2023 | James Francis</p>
-                <p><a href="site-plan.html">Site Plan</a></p>
-                <div class="social">
-                    <button class="follow" href="https://www.instagram.com/imjamesfrancis/">Follow</button>
-                </div>
-            </footer>
+            <div id="footer-img">
+                <img id="pipes" src="images/pipes.png" alt="pipes image">
+            </div>
+            
         </div>
+        <footer>
+            <p id="project-footer">port.folio &copy; 2023 | James Francis</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <div class="social">
+                <button class="follow"
+                    onclick="window.location.href='https://www.instagram.com/imjamesfrancis/'">Follow</button>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>

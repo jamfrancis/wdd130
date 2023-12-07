@@ -177,9 +177,6 @@ p.project-info {
 }
 
 button.project-link {
-    /* margin: 10px; */
-    /* position: absolute; */
-    /* bottom: 5px; */
     margin: 0 auto;
 }
 
@@ -240,7 +237,7 @@ footer.foot {
     object-fit: cover;
     border-radius: 50%;
 }
-#welcome-box{
+.title-head{
     font-size: 3em;
 }
 #welcome-card{
@@ -287,7 +284,74 @@ footer.foot {
     padding: 20px;
 }
 
+/* Projects Page */
+#title-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects-hero {
+    display: flex;
+    justify-content: center;
+}
+
+#project-title-img {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    min-width: 100px;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+#projects-grid{
+    margin:10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px 10px;
+    z-index: 1;
+
+}
+.projects-card{
+    background-color: #ed632d;
+    border-radius: 15px;
+    padding: 5px;
+    z-index: 3;
+    text-align: center;
+    position: relative;
+    display: grid;
+    grid-template-rows: .5fr 2fr 50px;
+}
+h4.projects-title{
+    font-size: 3em;
+    height: fit-content;
+    border-radius: 15px;
+    padding: 5px;
+    margin: auto;
+    }
+#pipes{
+    justify-content: end;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+    margin-top: -400px;
+    margin-bottom: -60px;
+}
+#project-footer{
+    color:#faf0d0;
+}
+
 @media screen and (max-width: 600px) {
+    #projects-section{
+        margin:10px;
+    }
+    #projects-grid{
+        margin: 10px 0px 0px 0px;
+    }
 
     #dark-mode{
         position: absolute;
@@ -370,5 +434,20 @@ footer.foot {
     #welcome-info{
         margin: 0 auto;
 
+    }
+
+    #title-grid{
+        display:block;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 15px 0px;
+    }
+    #project-title-title{
+        margin:0px;
+    }
+    #projects-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
 }
