@@ -433,7 +433,6 @@ h4.projects-title{
         }
     #welcome-info{
         margin: 0 auto;
-
     }
 
     #title-grid{
@@ -442,8 +441,13 @@ h4.projects-title{
         align-items: center;
         margin: 0px 0px 15px 0px;
     }
-    #project-title-title{
-        margin:0px;
+    #project-title{
+        margin:0 auto;
+    }
+
+    h3#project-title-title{
+        margin:0 auto;
+        text-align: center;
     }
     #projects-grid{
         display: grid;
